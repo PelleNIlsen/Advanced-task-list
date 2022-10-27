@@ -5,6 +5,11 @@
     margin: 10px;
 }
 
+/* Every other list should have float right */
+.list:nth-child(1n) {
+    float: left;
+}
+
 .taskList {
     border: 1px solid black;
     width: auto;
