@@ -5,9 +5,20 @@
     margin: 10px;
 }
 
+.subtask {
+    border: 1px solid black;
+    width: max-content;
+    padding: 10px;
+    margin: 10px;
+}
+
 /* Every other list should have float right */
 .list:nth-child(1n) {
     float: left;
+}
+
+.deleteList {
+    float: right;
 }
 
 .taskList {
